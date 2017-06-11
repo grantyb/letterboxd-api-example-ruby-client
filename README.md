@@ -8,10 +8,6 @@ Although the Letterboxd API isn’t public yet (as at 2017-06-12), we have seede
 
 Hope this helps. Comments, pull requests, etc welcome.
 
-Grant Berridge
-Lead developer, Letterboxd.
-(Not a Ruby developer)
-
 ## Installation
 
 If you already have Ruby, you should be good to go.
