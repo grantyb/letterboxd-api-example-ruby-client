@@ -27,8 +27,9 @@ ruby examples.rb
 
 This should result in this error:
 
-```/…/letterboxd-api-example-ruby-client/ruby-client/services/auth.rb:10:in `login': Unable to log in (RuntimeError)
-	from examples.rb:22:in `<main>'
+```
+/…/letterboxd-api-example-ruby-client/ruby-client/services/auth.rb:10:in 'login': Unable to log in (RuntimeError)
+	from examples.rb:22:in '<main>'
 ```
 
 If that’s what you see, then you’re nearly ready. Edit the `examples.rb` file to add your own API key where it has `YOUR_KEY_HERE`, your API secret where it has `YOUR_SECRET_HERE`, and also put your own username where it has `YOUR_USERNAME_HERE` and your password instead of `YOUR_PASSWORD_HERE`.
