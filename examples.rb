@@ -19,6 +19,6 @@ API_BASE = 'https://api.letterboxd.com/api/v0'
 
 lbxd = Letterboxd.new API_BASE, API_KEY, API_SECRET
 
-lbxd.login 'YOUR_USERNAME', 'YOUR_PASSWORD_HERE'
+lbxd.login 'YOUR_USERNAME_HERE', 'YOUR_PASSWORD_HERE'
 show_json lbxd.get_me
 
