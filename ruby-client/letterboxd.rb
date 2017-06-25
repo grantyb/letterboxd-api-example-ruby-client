@@ -8,7 +8,6 @@ require_relative 'services/log_entries'
 require_relative 'services/me'
 require_relative 'services/members'
 require_relative 'services/search'
-require_relative 'services/watchlist'
 
 # Version 0 of the Letterboxd API
 class Letterboxd 
@@ -23,7 +22,6 @@ class Letterboxd
   include Me
   include Members
   include Search
-  include Watchlist
   
   def initialize api_base, api_key, api_secret
     @api_base = api_base
